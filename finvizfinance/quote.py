@@ -8,7 +8,7 @@ from datetime import datetime
 import json
 import pandas as pd
 import requests
-from finvizfinance.finvizfinance.util import web_scrap, image_scrap, number_covert, headers
+from finvizfinance.util import web_scrap, image_scrap, number_covert, headers
 
 QUOTE_URL = "https://finviz.com/quote.ashx?t={ticker}"
 NUM_COL = [
